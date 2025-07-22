@@ -1,9 +1,6 @@
 package pattern.singleton.demo4;
 
 public class Singleton {
-    public static void main(String[] args) {
-        Singleton singleton = new Singleton();
-    }
     //私有构造方法
     private Singleton() {}
 
