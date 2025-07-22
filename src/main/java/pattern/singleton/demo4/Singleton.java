@@ -1,4 +1,4 @@
-package pattern.singleton.deno4;
+package pattern.singleton.demo4;
 
 public class Singleton {
     public static void main(String[] args) {
