@@ -1,4 +1,4 @@
-package pattern.state;
+package pattern.state.before;
 
 public class Lift implements ILift{
     private int state;

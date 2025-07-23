@@ -1,4 +1,4 @@
-package pattern.state;
+package pattern.state.before;
 
 public interface ILift {
     int OPENING_STATE = 1;
