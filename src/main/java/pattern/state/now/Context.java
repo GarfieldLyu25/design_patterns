@@ -7,6 +7,11 @@ public class Context {
     public final static RunningState runningState = new RunningState();
     public final static StoppingState stoppingState = new StoppingState();
 
+    public Context() {
+        this.liftState = stoppingState;
+        this.liftState.context = this;
+    }
+
     private LifeState liftState;
     public LifeState getLiftState() {
         return this.liftState;
