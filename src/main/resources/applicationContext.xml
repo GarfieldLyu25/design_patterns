@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean id="userService" class="Spring.use.Service.Impl.UserServiceImpl">
+        <property name="userDao" ref="userDao"></property>
+    </bean>
+    <bean id="userDao" class="Spring.use.Dao.Impl.UserDaoImpl">
+        <property name="username" value="lgf"></property>
+        <property name="password" value="123456"></property>
+    </bean>
+</beans>
