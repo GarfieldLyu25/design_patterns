@@ -18,3 +18,5 @@ getBean时在singletonObjects存实例对象里找，如果没有就用反射实
 使用时创建，不能解决循环依赖
 
 ![image-20250728161258230](assets/image-20250728161258230.png)
+
+![](https://raw.githubusercontent.com/GarfieldLyu25/design_patterns/refs/heads/master/assets/image-20250728161258230.png)
