@@ -16,3 +16,5 @@ singletonObjects存实例对象
 getBean时在singletonObjects存实例对象里找，如果没有就用反射实例化对象
 
 使用时创建，不能解决循环依赖
+
+![image-20250728161258230](assets/image-20250728161258230.png)
