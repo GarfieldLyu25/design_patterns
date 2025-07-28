@@ -11,3 +11,8 @@ java语言实现的设计模式 包括设计原则 23种模式 自定义spring
 解释器
 
 自定义spring部分较难
+初始化用xmlBeanDefinitionReader读取配置文件存入BeanDefinitionMap
+singletonObjects存实例对象
+getBean时在singletonObjects存实例对象里找，如果没有就用反射实例化对象
+
+使用时创建，不能解决循环依赖
